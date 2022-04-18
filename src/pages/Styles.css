@@ -34,6 +34,9 @@ p {
   }
   .page {
       padding: 10px;
+      overflow: none;
+      width: 48vw;
+    height: 48vh;
   }
   .image {
 
@@ -106,14 +109,15 @@ float: left;
     margin: 0 auto;
     float: center;
     left: 50%;
-    width: 500px;
-    height: 330px;
+    width: 50vw;
+    height: 50vh;
     opacity: 0.8;
     align-items: center-top;
     text-align: center;
     border-radius: 30px;
     background: #ffd6ba;;
     padding: 10px;
+    overflow: auto;
     
 
 }
