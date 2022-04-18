@@ -1,0 +1,254 @@
+* {
+    font-family: 'Akshar', sans-serif;
+
+}
+
+p {
+    opacity:1;
+}
+
+
+
+
+
+.git {
+    display: flex;
+    
+    /* align-items: horizontal; */
+    
+}
+
+.web {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #808080;
+    width: 30px;
+    
+}
+.img {
+    display: flex;
+    width: 30px;
+    align-items: horizontal;
+    padding: 10px;
+  }
+  .page {
+      padding: 10px;
+  }
+  .image {
+
+      display: flex;
+      align-items: horizontal;
+      background: #808080;
+
+  }
+  /* .page {
+
+  } */
+.about {
+    display: flex;
+    float: center;
+    font-size: 15pt;
+    font-family: 'Akshar', sans-serif;
+    justify-content: center;
+
+}
+.aboutP {
+
+    font-size: 30pt;
+    font-family: 'Akshar', sans-serif;
+    margin-top: 20px;
+
+}
+.name {
+    margin-left: 520px;
+    font-size: 30pt;
+    width: 300px;
+    font-family: 'Akshar', sans-serif;
+    opacity: 0.8;
+}
+
+.aboutText {
+    font-size: 30pt;
+    font-family: 'Akshar', sans-serif;
+}
+
+.links {
+    border-radius: 4px;
+/* background: #808080; */
+padding: 10px 22px;
+color: #000000;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+font-size: 20px;
+float: left;
+
+/* Second Nav */
+/* margin-left: 24px; */
+
+
+}
+
+.links:hover {
+	transition: all 0.2s ease-in-out;
+    color: #808080;
+
+	/* color: #808080; */
+}
+
+.front {
+    font-size: 20px;
+    display: flex;
+    flex-direction:column;
+    margin: 0 auto;
+    float: center;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    opacity: 0.8;
+    align-items: center-top;
+    text-align: center;
+    border-radius: 30px;
+    background: #ffe6ea;
+    padding: 10px;
+    
+
+}
+
+.container {
+display: flex;
+justify-content: space-around;
+/* height:100vh;
+width:100vw; */
+
+
+}
+.chron {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.vertLine {
+   
+        border-left: 6px solid #555b6e;
+        height: 100vh;
+        position: relative;
+        left: 50%;
+        top: 0;
+      
+}
+
+
+.leftPointer { 
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    left: 14em;
+
+   
+}
+
+.rightPointer { 
+    display:flex;
+    flex-direction: column; 
+    position: relative;
+    right: 14em;
+    top: 10em;
+    
+    
+
+}
+.leftItem {
+    padding: 10px;
+    width: 30vw;
+    height:20vh;
+    border-radius: 10px;
+    background-color:#ffd6ba;
+    opacity:0.8;
+    margin-bottom: 120px;
+}
+
+.head{
+padding: 0%;
+position: relative;
+top:0em;
+margin: 0em;
+}
+.description {
+    margin: 0em;
+    overflow: none;
+}
+
+.github {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    height:2em;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.formBack {
+    padding: 30px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    right: 50%;
+    flex-direction: column;
+    background-color: #555b6e;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 500px;
+    justify-content: center;
+}
+
+.textBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 30px;
+    margin: 1em;
+    border-color:#ffd6ba;
+    border-width: 5px;
+
+}
+
+.textArea {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+    margin: 1em;
+    border-color:#ffd6ba;
+    border-width: 5px;
+
+}
+.message {
+    display: flex;
+    align-items: center;
+    float: center;
+    width: 100px;
+    height: 50px;
+    margin: 1em;
+    border-color:#ffd6ba;
+    border-width: 5px;
+
+}
+
+.aboutPage {
+    display: flex;
+    float: center;
+    font-family: 'Akshar', sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
