@@ -1,5 +1,4 @@
 import React from 'react';
-import Typest from 'react-typist';
 import './Styles.css';
 
 const Portfolio = () => {
@@ -20,7 +19,7 @@ const Portfolio = () => {
                                 <img src={require('../components/NavBar/githubAlt.png')} alt="GitHub logo" class="img" />
                             </a>
                         </div>
-                        <h1 class="head">Drama App</h1>
+                        <h1 class="head">TV Series App</h1>
                         <p class="description">
                             Developed an app in SwiftUI for a course at the University of Georgia.
                             The app allows you to store your TV dramas, with information
