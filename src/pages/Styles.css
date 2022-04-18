@@ -151,7 +151,7 @@ width:100vw; */
     display: flex;
     flex-direction: column; 
     position: relative;
-    left: 14em;
+    left: 14vw;
 
    
 }
@@ -160,8 +160,9 @@ width:100vw; */
     display:flex;
     flex-direction: column; 
     position: relative;
-    right: 14em;
+    right: 13vw;
     top: 10em;
+    
     
     
 
@@ -173,7 +174,8 @@ width:100vw; */
     border-radius: 10px;
     background-color:#ffd6ba;
     opacity:0.8;
-    margin-bottom: 120px;
+    margin-bottom: 15vh;
+    overflow: auto;
 }
 
 .head{
