@@ -151,7 +151,7 @@ width:100vw; */
     display: flex;
     flex-direction: column; 
     position: relative;
-    left: 14vw;
+    left: 13vw;
 
    
 }
@@ -160,7 +160,7 @@ width:100vw; */
     display:flex;
     flex-direction: column; 
     position: relative;
-    right: 13vw;
+    right: 12vw;
     top: 10em;
     
     

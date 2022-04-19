@@ -19,6 +19,10 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
   const toggling = () => setIsOpen(!isOpen);
+  const onOptionClicked = value => () => {
+    setIsOpen(false);
+    console.log(selectedOption);
+  };
   return (
     <>
       <Nav>
@@ -41,7 +45,7 @@ export default function Navbar() {
             {isOpen && (
               <DropDownListContainer class="drop" >
                 <ul class = "listLink">
-                  <NavLink class = "Altlinks" to='/' activeStyle>
+                  <NavLink class= "Altlinks" to='/' activeStyle>
                     Home
                   </NavLink>
                   <NavLink class="Altlinks" to='/contact' activeStyle>
