@@ -258,3 +258,35 @@ margin: 0em;
     flex-direction: column;
     align-items: center;
 }
+.drop {
+    display: flex;
+    margin-top: 30px;
+}
+
+.dropContainer {
+
+    padding: 0%;
+    margin: 0px;
+
+}
+
+.Altlinks {
+    border-radius: 0px;
+/* background: #808080; */
+padding: 0px 0px;
+color: #000000;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+font-size: 20px;
+float: left;
+
+}
+
+.listLink {
+    margin: 0;
+    padding: 2px;
+    padding-bottom: 5px;
+}

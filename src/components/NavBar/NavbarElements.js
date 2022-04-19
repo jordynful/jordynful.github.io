@@ -38,13 +38,13 @@ border-radius: 10px;
 
 export const Bars = styled(FaBars)`
 display: none;
-color: #808080;
+color: #fff;
 @media screen and (max-width: 768px) {
 	display: block;
 	position: absolute;
-	top: 0;
-	right: 0;
-	transform: translate(-100%, 75%);
+	top: 3vh;
+	right: 5vw;
+	
 	font-size: 1.8rem;
 	cursor: pointer;
 }
@@ -92,5 +92,21 @@ margin-left: 24px;
 	transition: all 0.2s ease-in-out;
 	background: #fff;
 	color: #808080;
+}
+`;
+
+export const DropDownContainer = styled("div") `
+@media screen and (max-width: 768px) {
+	position: absolute;
+	top: 10;
+	right: 0;
+	transform: translate(0%, 60%);
+	font-size: 1.8rem;
+	cursor: pointer;
+	background: #555b6e;
+	padding: 0px;
+	width: 30vw;
+	
+	
 }
 `;
