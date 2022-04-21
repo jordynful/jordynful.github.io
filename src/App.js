@@ -8,6 +8,7 @@ import Portfolio from './pages/events';
 import ParticlesBg from 'particles-bg'
 import ContactForm from "./pages/about";
 import MyBook from './pages/flipbook';
+import NewMedia from "./pages/newMedia";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path='/' exact element={<Home />} />
           <Route path='/contact' element={<ContactForm />} />
           <Route path='/portfolio' element={<Portfolio />} />
-
+          <Route path='/nmc' element={< NewMedia />} />
         </Routes>
       </Router>
     <>
