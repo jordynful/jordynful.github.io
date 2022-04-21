@@ -35,9 +35,9 @@ p {
   .page {
       float: right;
       padding: 10px;
-      overflow: none;
+      overflow: auto;
       width: 60vw;
-    height: 48vh;
+    /* height: 48vh; */
     align-self: right;
   }
   .image {
@@ -118,7 +118,7 @@ float: left;
     text-align: right;
     background: #ffd6ba;;
     padding: 10px;
-    overflow: auto;
+    overflow:auto;
     
 
 }
