@@ -9,7 +9,7 @@ display: flex;
 position: sticky;
 top:0;
 opacity: 0.8;
-justify-content: space-between;
+justify-content: space-around;
 padding: 0.2rem calc((60vw - 1000px) / 2);
 z-index: 12;
 /* Third Nav */
