@@ -109,17 +109,16 @@ float: left;
     /* display: flex; */
     flex-direction:column;
     margin-top: 0vh;
-    float: right;
     /* left: 50%; */
-    width: 100vw;
+    width: 0.2rem calc((60vw - 1000px) / 2);
     height: 40vh;
     /* opacity: 0.8; */
     align-items: right;
     text-align: right;
-    background: #ffd6ba;;
-    padding: 10px;
+    background: #ffd6ba;
     overflow:auto;
-    
+    padding: 10px;
+    cursor: pointer;
 
 }
 
@@ -261,7 +260,7 @@ margin: 0em;
 }
 .drop {
     display: flex;
-    margin-top: 30px;
+    
 }
 
 .dropContainer {
@@ -291,3 +290,114 @@ float: left;
     padding: 2px;
     padding-bottom: 5px;
 }
+
+.frontL {
+    font-size: 20px;
+    /* display: flex; */
+    flex-direction:column;
+    margin-top: 0vh;
+    /* left: 50%; */
+    padding:10px;
+    width: 0.2rem calc((60vw - 1000px) / 2);
+    height: 40vh;
+    /* opacity: 0.8; */
+    align-items: left;
+    text-align: left;
+    background: #07393C;
+    
+    color: #F0EDEE;
+   
+
+}
+
+.pageL {
+    float: left;
+    
+    overflow: auto;
+    width: 60vw;
+  /* height: 48vh; */
+  align-self: left;
+  color: #F0EDEE;
+
+}
+
+.ro {
+    margin-top: 0em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.proj {
+    
+    display: flex;
+    float: center;
+    flex-direction: column;
+
+    padding:10px;
+    overflow: auto;
+
+    
+}
+
+.desc {
+    padding: 0%;
+    top:0em;
+    margin: 0em;
+    width:30vw;
+    }
+
+    .test {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .outer {
+
+        background: #ADD8E6;
+        color:#000000;
+        width: 60vw;
+        padding:0px;
+        display: flex;
+        font-size: 15px;
+        flex-direction: row;
+        opacity: 0.8;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .green {
+        font-size: 20px;
+        /* display: flex; */
+        flex-direction:column;
+        margin-top: 0vh;
+        /* left: 50%; */
+        padding:10px;
+        width: 0.2rem calc((60vw - 1000px) / 2);
+       
+        /* opacity: 0.8; */
+        align-items: left;
+        text-align: left;
+        background: #07393C;
+        
+        color: #F0EDEE;
+        
+    
+    }
+
+    .img1 {
+        display: flex;
+        /* width: 20vw; */
+        height:30vh;
+        align-items: horizontal;
+        padding: 0px;
+        padding: 1em;
+        
+      }
+
+      .desc2 {
+        padding: 0%;
+        top:0em;
+        margin: 0em;
+        width:20vw;
+        }

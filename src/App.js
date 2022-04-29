@@ -4,7 +4,7 @@ import Navbar from './components/NavBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages';
 import About from './pages/about';
-import Portfolio from './pages/events';
+import Portfolio from './pages/port';
 import ParticlesBg from 'particles-bg'
 import ContactForm from "./pages/about";
 import MyBook from './pages/flipbook';

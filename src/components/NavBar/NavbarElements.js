@@ -110,3 +110,19 @@ export const DropDownContainer = styled("div") `
 	
 }
 `;
+
+export const Projects = styled("div") `
+@media screen and (max-width: 768px) {
+	position: absolute;
+	top: 10;
+	right: 0;
+	transform: translate(0%, 0%);
+	font-size: 1.8rem;
+	cursor: pointer;
+	background: #555b6e;
+	padding: 0px;
+	width: 30vw;
+	
+	
+}
+`;
