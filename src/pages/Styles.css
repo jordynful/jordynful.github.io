@@ -118,7 +118,7 @@ float: left;
     background: #ffd6ba;
     overflow:auto;
     padding: 10px;
-    cursor: pointer;
+
 
 }
 
@@ -401,3 +401,62 @@ float: left;
         margin: 0em;
         width:20vw;
         }
+
+        .rop {
+            margin-top: 0em;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        float:center;
+        align-self:center;
+           
+        
+        }
+
+        .proj2 {
+    
+            display: flex;
+            float: center;
+            flex-direction: column;
+        background: #ADD8E6;
+            overflow: auto;
+            height: 50vh;
+            opacity: 0.8;
+            border-radius: 10px;
+            padding:10px;
+            width:27vw;
+            height:38vh;
+            text-align:center;
+            margin-right:10px;
+            margin-left:10px;
+            font-size:15px;
+            
+        
+            
+        }
+
+        .desc3 {
+            padding: 0%;
+            top:0em;
+            margin: 0em;
+            font-size:15px;
+            
+            }
+
+            .front1 {
+                font-size: 20px;
+                /* display: flex; */
+                flex-direction:column;
+                margin-top: 0vh;
+                /* left: 50%; */
+                width: 0.2rem calc((60vw - 1000px) / 2);
+                /* height: 40vh; */
+                /* opacity: 0.8; */
+                align-items: center;
+                /* text-align: right; */
+                background: #ffd6ba;
+                overflow:auto;
+                padding: 10px;
+            
+            
+            }
