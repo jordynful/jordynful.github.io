@@ -57,10 +57,10 @@ const NewMedia = () => {
                             notes about the program.</p>
             </div>
             <div class="test">
-            <img src={require('./t.png')} alt="Quiz app" class="img1" />
-            <img src={require('./t2.png')} alt="Quiz app" class="img1" />
-            <img src={require('./t3.png')} alt="Quiz app" class="img1" />
-            <img src={require('./t4.png')} alt="Quiz app" class="img1" />
+            <img src={require('./t.png')} alt="TV app" class="img1" />
+            <img src={require('./t2.png')} alt="TV app" class="img1" />
+            <img src={require('./t3.png')} alt="TV app" class="img1" />
+            <img src={require('./t4.png')} alt="TV app" class="img1" />
             </div>
           </div>
           <div class="outer">
@@ -88,7 +88,9 @@ const NewMedia = () => {
                 to its specific coordinates. </p>
             </div>
             <div class="test">
-            
+            <img src={require('./m.png')} alt="Map app" class="img1" />
+            <img src={require('./m1.png')} alt="Map app" class="img1" />
+            <img src={require('./m2.png')} alt="Map app" class="img1" />
             </div>
           </div>
 
