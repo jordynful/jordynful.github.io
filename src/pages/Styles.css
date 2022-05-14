@@ -132,14 +132,14 @@ width:100vw; */
 }
 .chron {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     
 }
 
 .vertLine {
    
         border-left: 6px solid #555b6e;
-        height: 100vh;
+        height: 130vh;
         position: relative;
         left: 50%;
         top: 0;
