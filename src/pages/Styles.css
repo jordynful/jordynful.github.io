@@ -344,7 +344,7 @@ float: left;
     padding: 0%;
     top:0em;
     margin: 0em;
-    width:30vw;
+    width:20vw;
     }
 
     .test {
@@ -400,14 +400,16 @@ float: left;
         top:0em;
         margin: 0em;
         width:20vw;
+        height:100%;
         }
 
         .rop {
             margin-top: 0em;
             display: flex;
             flex-direction: row;
-            align-items: center;
-        float:center;
+            align-items: center-top;
+        float:right;
+       
         align-self:center;
            
         
@@ -418,7 +420,7 @@ float: left;
             display: flex;
             float: center;
             flex-direction: column;
-        background: #ADD8E6;
+            background: #ADD8E6;
             overflow: auto;
             height: 50vh;
             opacity: 0.8;

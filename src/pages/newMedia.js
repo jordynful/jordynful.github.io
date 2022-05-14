@@ -128,7 +128,24 @@ const NewMedia = () => {
               <img src={require('./m2.png')} alt="Map app" class="img1" />
             </div>
           </div>
-
+          <div class="outer">
+            <div class="proj">
+              <h1 class="head1">Dev Contractor App</h1>
+              <p class="desc">
+                Developed an app in React-Native for NMIX 4310.
+                The app implements user-authentication using MongoDB as a databse. The app would be
+                 for requesting services from a software
+                developer(me). The user can scroll through the offered services or use the search function.
+                Each service when clicked on, takes the user to a detailed page about the service. </p>
+            </div>
+            <div class="test">
+              <img src={require('./f5.png')} alt="Map app" class="img1" />
+              <img src={require('./f4.png')} alt="Map app" class="img1" />
+              {/* <img src={require('./f2.png')} alt="Map app" class="img1" /> */}
+              <img src={require('./f.png')} alt="Map app" class="img1" />
+              <img src={require('./f3.png')} alt="Map app" class="img1" />
+            </div>
+          </div>
         </div>
       </div>
 
