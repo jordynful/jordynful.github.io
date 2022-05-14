@@ -15,7 +15,7 @@ const Portfolio = () => {
                     <div class="leftItem">
                         <div class="github">
                             <p class="head"><em>May 2022</em></p>
-                            <a href="https://github.com/jordynful/DramaApp-41422" activeStyle>
+                            <a href="https://github.com/jordynful/ReactNativeNMIX4310" activeStyle>
                                 <img src={require('../components/NavBar/githubAlt.png')} alt="GitHub logo" class="img" />
                             </a>
                         </div>
@@ -43,7 +43,7 @@ const Portfolio = () => {
                     <div class="leftItem">
                         <div class="github">
                             <p class="head"><em>February 2022</em></p>
-                            <a href="https://github.com/jordynful/cs1730p1" activeStyle>
+                            <a href="https://github.com/jordynful/IndustRealize" activeStyle>
                                 <img src={require('../components/NavBar/githubAlt.png')} alt="GitHub logo" class="img" />
                             </a>
                         </div>
@@ -62,7 +62,7 @@ const Portfolio = () => {
                     <div class="leftItem">
                         <div class="github">
                             <p class="head"><em>April 2022</em></p>
-                            <a href="https://github.com/jordynful/DSp3" activeStyle>
+                            <a href="https://github.com/jordynful/DramaApp-41422" activeStyle>
                                 <img src={require('../components/NavBar/githubAlt.png')} alt="GitHub logo" class="img" />
                             </a>
                         </div>
@@ -77,7 +77,7 @@ const Portfolio = () => {
                     <div class="leftItem">
                         <div class="github">
                             <p class="head"><em>March 2022</em></p>
-                            <a href="https://github.com/jordynful/IndustRealize" activeStyle>
+                            <a href="https://github.com/jordynful/DSp3" activeStyle>
                                 <img src={require('../components/NavBar/githubAlt.png')} alt="GitHub logo" class="img" />
                             </a>
                         </div>
@@ -93,7 +93,7 @@ const Portfolio = () => {
                     <div class="leftItem">
                         <div class="github">
                             <p class="head"><em>December 2021</em></p>
-                            <a href="https://github.com/jordynful/IndustRealize" activeStyle>
+                            <a href="https://github.com/jordynful/cs1730p1" activeStyle>
                                 <img src={require('../components/NavBar/githubAlt.png')} alt="GitHub logo" class="img" />
                             </a>
                         </div>
