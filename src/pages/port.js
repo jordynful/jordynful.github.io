@@ -19,7 +19,8 @@ const Portfolio = () => {
                                 <img src={require('../components/NavBar/githubAlt.png')} alt="GitHub logo" class="img" />
                             </a>
                         </div>
-                        <h1 class="head">Software Developer App</h1>
+                        <h1 class="portTitles">Software Developer App</h1>
+                        <div class = "mobileLinePort"></div>
                         <p class="description">
                             Developed an app in React Native for a course at UGA. The app implements user-authentication using MongoDB as a databse. The app would be
                             for requesting services from a software
@@ -34,7 +35,8 @@ const Portfolio = () => {
                                 <img src={require('../components/NavBar/githubAlt.png')} alt="GitHub logo" class="img" />
                             </a>
                         </div>
-                        <h1 class="head">Trivia App</h1>
+                        <h1 class="portTitles">Trivia App</h1>
+                        <div class = "mobileLinePort"></div>
                         <p class="description">
                             Developed an app in SwiftUI for a course at the University of Georgia.
                             The app is an animal trivia game with questions from an API. The app
@@ -47,7 +49,8 @@ const Portfolio = () => {
                                 <img src={require('../components/NavBar/githubAlt.png')} alt="GitHub logo" class="img" />
                             </a>
                         </div>
-                        <h1 class="head">Strive</h1>
+                        <h1 class="portTitles">Strive</h1>
+                        <div class = "mobileLinePort"></div>
                         <p class="description">
                             Created a website for the UGA Hackathon. The website was intended
                             to act as a platform between contractors and clients for “odd job” type work. During this
@@ -66,7 +69,8 @@ const Portfolio = () => {
                                 <img src={require('../components/NavBar/githubAlt.png')} alt="GitHub logo" class="img" />
                             </a>
                         </div>
-                        <h1 class="head">TV Series App</h1>
+                        <h1 class="portTitles">TV Series App</h1>
+                        <div class = "mobileLinePort"></div>
                         <p class="description">
                             Developed an app in SwiftUI for a course at the University of Georgia.
                             The app allows you to store your TV dramas, with information
@@ -81,7 +85,8 @@ const Portfolio = () => {
                                 <img src={require('../components/NavBar/githubAlt.png')} alt="GitHub logo" class="img" />
                             </a>
                         </div>
-                        <h1 class="head">Binary Search Tree</h1>
+                        <h1 class="portTitles">Binary Search Tree</h1>
+                        <div class = "mobileLinePort"></div>
                         <p class="description">
                             Wrote a C++ program that creates a Binary Search Tree from
                             an input file of values. The program corrects the tree according
@@ -97,7 +102,8 @@ const Portfolio = () => {
                                 <img src={require('../components/NavBar/githubAlt.png')} alt="GitHub logo" class="img" />
                             </a>
                         </div>
-                        <h1 class="head">Immitation Shell</h1>
+                        <h1 class="portTitles">Immitation Shell</h1>
+                        <div class = "mobileLinePort"></div>
                         <p class="description">
                             Developed a fully operational immitation shell in c++ for a course
                             at the University of Georgia. The project taught me to work with

@@ -184,6 +184,12 @@ position: relative;
 top:0em;
 margin: 0em;
 }
+.portTitles{
+    padding: 0%;
+    position: relative;
+    top:0em;
+    margin: 0em;
+ }
 .description {
     margin: 0em;
     overflow: none;
@@ -461,4 +467,54 @@ float: left;
                 padding: 10px;
             
             
+            }
+
+            @media only screen and (max-width: 600px) {
+
+                .leftPointer { 
+                    display: flex;
+                    flex-direction: column; 
+                    position: relative;
+                    left: 1vw;
+                
+                   
+                }
+                
+                .rightPointer { 
+                    display:flex;
+                    flex-direction: column; 
+                    position: relative;
+                    right: 1vw;
+                    top: 10em;
+                    
+                    
+                
+                }
+
+                .leftItem {
+                    padding: 10px;
+                    width: 36vw;
+                    height:20vh;
+                    border-radius: 10px;
+                    background-color:#ffd6ba;
+                    opacity:0.8;
+                    margin-bottom: 15vh;
+                    overflow: auto;
+                }
+
+                .portTitles{
+                    padding: 0%;
+                    position: relative;
+                    top:0em;
+                    margin: 0em;
+                    font-size: 1.5em;
+                 }
+
+                 .mobileLinePort {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    border-bottom: 3px solid #090a0a;
+                    width: 100%;
+                    top: 0;
+                 }
             }
