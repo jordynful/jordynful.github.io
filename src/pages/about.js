@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Typest from 'react-typist';
 import './Styles.css';
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/19854b80-beca-11ec-a9fe-f9d78fa6da59"; // TODO - fill on the later step

@@ -1,6 +1,6 @@
 
-import Typest from 'react-typist';
 import React, { useState } from "react";
+import { Typewriter } from 'react-simple-typewriter';
 import {
   Projects
 } from '../components/NavBar/NavbarElements';
@@ -12,9 +12,19 @@ const NewMedia = () => {
   return (
     <>
       <div class="aboutP">
-        <Typest>
-          New Media Portfolio
-        </Typest>
+      <span style={{ color: 'black', fontWeight: 'bold' }}>
+          {/* Style will be inherited from the parent element */}
+          <Typewriter
+            words={['innovation','exploration', 'transformation', 'New Media']}
+            loop={1}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            delaySpeed={1000}
+            deleteSpeed={40}
+          />
+          </span>
+
       </div>
 
       <div class="front">

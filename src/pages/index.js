@@ -4,7 +4,9 @@ import './Styles.css';
 const Home = () => {
 
   return (
-    <> <div class="aboutP">
+    <> 
+    
+    <div class="aboutP">
           <span style={{ color: 'black', fontWeight: 'bold' }}>
           {/* Style will be inherited from the parent element */}
           <Typewriter
@@ -20,6 +22,7 @@ const Home = () => {
 
 
       <div class="front">
+        
         <div class="page">
           <h1>Who am I?</h1>
           <p> I'm an aspiring full-stack developer based in Athens, GA, and am currently pursuing
