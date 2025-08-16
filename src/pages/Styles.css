@@ -126,43 +126,50 @@ float: left;
 .container {
 display: flex;
 justify-content: space-around;
+align-items: stretch;
 /* height:100vh;
 width:100vw; */
 
 
 }
 .chron {
-    width: 100vw;
-    height: 100%;
+    display: flex;
+    justify-content: center;
     
 }
 
 .vertLine {
    
-        border-left: 6px solid #555b6e;
-        height: 130vh;
-        position: relative;
-        left: 50%;
-        top: 0;
+      border-left: 6px solid #555b6e;
+    height: 100%; /* full height of parent container */
       
 }
 
 
 .leftPointer { 
-    display: flex;
+    /* display: flex;
     flex-direction: column; 
     position: relative;
-    left: 13vw;
-
+    left: 13vw; */
+  display:flex;
+    flex-direction: column; 
+    position: relative;
+    left: 5vw;
+    top: 10em;
    
 }
 
 .rightPointer { 
-    display:flex;
+    /* display:flex;
     flex-direction: column; 
     position: relative;
     right: 12vw;
-    top: 10em;
+    top: 10em; */
+        display: flex;
+    flex-direction: column; 
+    position: relative;
+    right: 5vw;
+
     
     
     
@@ -171,7 +178,7 @@ width:100vw; */
 .leftItem {
     padding: 10px;
     width: 30vw;
-    height:20vh;
+    /* height:20vh; */
     border-radius: 10px;
     background-color:#ffd6ba;
     opacity:0.8;

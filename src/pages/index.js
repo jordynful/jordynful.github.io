@@ -25,12 +25,7 @@ const Home = () => {
         
         <div class="page">
           <h1>Who am I?</h1>
-          <p> I'm an aspiring full-stack developer based in Athens, GA, and am currently pursuing
-            my B.S in Computer Science at the University of Georgia. I'm a fourth year student
-            expecting to graduate in May 2023. I've completed a variety of relevant course work
-            in the computer science field and enjoy applying my experience in programming to
-            real world solutions. I love interacting with people and working in teams. Problem
-            solving is my specialty, but I love a good organization task.
+          <p> I’m a full-stack developer and technical project manager with a B.S. in Computer Science from the University of Georgia. I specialize in turning complex challenges into actionable solutions by bridging communication between engineers and business stakeholders. I thrive on organizing cross-functional teams, troubleshooting problems, and delivering results. I’m passionate about public speaking and honing leadership skills through avenues inside and outside of the office.
           </p>
           {/* <a href='./Fulbright_Resume_April.pdf' download>My Resume</a> */}
         </div>

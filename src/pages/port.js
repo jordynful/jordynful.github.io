@@ -62,6 +62,20 @@ const Portfolio = () => {
                     <div class="vertLine"></div>
                 </div>
                 <div class="rightPointer">
+                       <div class="leftItem">
+                        <div class="github">
+                            <p class="head"><em>May 2023</em></p>
+                            <a href="https://github.com/aniyahnorman/ChatAi" activeStyle>
+                                <img src={require('../components/NavBar/githubAlt.png')} alt="GitHub logo" class="img" />
+                            </a>
+                        </div>
+                        <h1 class="portTitles">Dairy Market - AI Marketing App</h1>
+                        <div class = "mobileLinePort"></div>
+                        <p class="description">
+                         Dairy Market is an AI-powered iOS application built with a team in Swift that generates tailored social media marketing content for small businesses. It combines user-provided business information with prompts crafted by in-house marketing experts and leverages the ChatGPT API to produce Instagram post ideas and captions. The app includes secure Firebase authentication and Firestore database integration, providing a seamless and intuitive user experience.
+
+                        </p>
+                    </div>
                     <div class="leftItem">
                         <div class="github">
                             <p class="head"><em>April 2022</em></p>

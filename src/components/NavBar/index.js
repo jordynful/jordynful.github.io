@@ -54,9 +54,6 @@ export default function Navbar() {
                   <NavLink class="Altlinks" to='/portfolio' activeStyle>
                     Portfolio
                   </NavLink>
-                  <NavLink class="Altlinks" to='/newmedia' activeStyle>
-                    New Media
-                  </NavLink>
                 </ul>
               </DropDownListContainer>
             )}
@@ -72,9 +69,6 @@ export default function Navbar() {
           </NavLink>
           <NavLink class="links" to='/portfolio' activeStyle>
             Portfolio
-          </NavLink>
-          <NavLink class="links" to='/newmedia' activeStyle>
-            New Media
           </NavLink>
           <h1 class="name"
           >Jordyn Fulbright</h1>
