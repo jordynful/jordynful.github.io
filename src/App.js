@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import './App.css';
 import Navbar from './components/NavBar';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Home from './pages';
 import Portfolio from './pages/port';
 import Particles from "react-particles";
