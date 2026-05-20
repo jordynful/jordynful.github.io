@@ -25,7 +25,7 @@ const Home = () => {
         
         <div class="page">
           <h1>Who am I?</h1>
-          <p> I’m a full-stack developer and technical project manager with a B.S. in Computer Science from the University of Georgia. I specialize in turning complex challenges into actionable solutions by bridging communication between engineers and business stakeholders. I thrive on organizing cross-functional teams, troubleshooting problems, and delivering results. I’m passionate about public speaking and honing leadership skills through avenues inside and outside of the office.
+          <p> I’m a technical project manager with a B.S. in Computer Science from the University of Georgia. I help teams turn ideas into working systems by keeping projects organized, solving problems, and bridging communication between technical and non-technical stakeholders. My work sits at the intersection of engineering, operations, and execution.
           </p>
           {/* <a href='./Fulbright_Resume_April.pdf' download>My Resume</a> */}
         </div>
